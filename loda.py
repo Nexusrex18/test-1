@@ -2,7 +2,7 @@
 
 import mathh
 
-pritn("Starting Program..." # missing parenthesis
+print("Starting Program..." # missing parenthesis
 
 name = input("What is your name?"    # missing closing parenthesis, indentation errors coming!!
 
