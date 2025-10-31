@@ -4,7 +4,7 @@ import mathh
 
 pritn("Starting Program..." # missing parenthesis
 
-name = input("What is your name?"    # missing closing parenthesis, indentation errors coming!!
+name = input("What is your name?")    # missing closing parenthesis, indentation errors coming!!
 
 if name = "Bob":
 print("Hey Bob!"
