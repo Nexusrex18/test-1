@@ -1,3 +1,39 @@
-Deploy-Triage automated fix attempt
-Error: SyntaxError
-Timestamp: 2025-11-01T04:04:22.499759
+print("Starting Program...")
+
+name = input("What is your name? ")
+
+if name == "Bob":
+    print("Hey Bob!")
+else:
+    print("Hello " + name)
+
+numbers = [10, 5, 0, 8]
+total = 0
+
+for n in numbers:
+    total += n  # correctly summing values
+
+print("Total is:", total)  # print supports multiple types
+
+def divide(a, b):
+    if b == 0:
+        return "Cannot divide by zero!"
+    return a / b
+
+print(divide(10, 0))  # gracefully handles zero division
+
+d = {"age": 20}
+print(d.get("name", "Name not found"))  # avoid KeyError
+
+class Person:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age  # use consistent variable
+
+    def speak(self):
+        print(f"Hi I'm {self.name} and I am {self.age} years old")
+
+p = Person(name, "twenty")  # pass user input as name
+p.speak()  # correct method name
+
+print("Program done!")
